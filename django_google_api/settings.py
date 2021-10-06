@@ -132,11 +132,12 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 
-GOOGLE_API_KEY = "AIzaSyBzW_p0Lbca-Y0SzI3vr01OKJIji9SrHUY"
+# insert your own Google Cloud API keys
+GOOGLE_API_KEY = ""
 
-RECAPTCHA_PUBLIC_KEY = "6Lf21GQcAAAAAER0FZaCo0a_MUxKv-Rbjb9-CWMP"
+RECAPTCHA_PUBLIC_KEY = ""
 
-RECAPTCHA_PRIVATE_KEY = "6Lf21GQcAAAAAH2qG3n2zyKsNb91uIBSj4hYAfA0"
+RECAPTCHA_PRIVATE_KEY = ""
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
@@ -147,4 +148,5 @@ LOGIN_URL = "users:sign-in"
 LOGIN_REDIRECT_URL = "users:account"
 LOGOUT_REDIRECT_URL = "users:sign-in"
 
+# set your country of choice e.g UK-United Kingdom, UG-Uganda, TZ-Tanzania ...
 BASE_COUNTRY = "KE"
